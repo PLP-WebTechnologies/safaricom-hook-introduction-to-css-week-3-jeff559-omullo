@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal, and External CSS</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Internal CSS */
+        h1 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: darkblue;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: gray;
+        }
+
+        .highlight {
+            background-color: lightcoral;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color: darkgreen;">Welcome to Inline, Internal, and External CSS</h1>
+
+    <p>This paragraph demonstrates how to use internal CSS to style elements.</p>
+
+    <div class="highlight">
+        This section is styled using a class with internal CSS.
+    </div>
+
+    <a href="https://example.com">Visit Example</a>
+</body>
+</html>
